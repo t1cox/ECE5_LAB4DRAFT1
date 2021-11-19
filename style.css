@@ -39,7 +39,17 @@ body{
     padding: 1rem;
     margin: 0rem 0rem 1rem 0rem;
     color: white;
+    background-color: rgb(104, 137, 150);
   }
+
+question {
+  color: black;
+  font-size: 1.75vw;
+}
+
+response {
+  font-size: 1.75vw;
+}
 
 .name {
   color: white;
@@ -93,8 +103,8 @@ p2 {
   font-size: 10px;
 }
 
-.center {
-  margin: auto;
+.left {
+  margin: left;
   width: 35%;
 }
 
@@ -102,7 +112,7 @@ p2 {
   color: white;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.25vw;
+  font-size: 1.5vw;
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 10px;
@@ -151,6 +161,15 @@ figcaption2 {
 }
 
 .imgmar1B {
-  position: absolute;
-  left: 600px;
+  float: left;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(104, 137, 150);
+}
+
+.my1B {
+  float: right;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(104, 137, 150);
 }
