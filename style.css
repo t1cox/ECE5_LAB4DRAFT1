@@ -1,11 +1,11 @@
 body{
-  background-image: url('https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png'); /*Seeting the background image. Ypu can change this by changing the link!*/ 
+  background-image: url(https://i.pinimg.com/originals/75/f5/e3/75f5e3ce35d9ad5b444178426f7dadd1.jpg); /*Seeting the background image. You can change this by changing the link!*/ 
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0rem; /* see referance for how padding and margins apply */
-  font-family: Verdana, sans-serif; /*You can change the font here*/
+  font-family: "Times New Roman", Times, serif; /*You can change the font here*/
 }  
 
 .main {
@@ -19,13 +19,13 @@ body{
     overflow: hidden;
     padding: 0rem;
     margin: 0rem;
-    background-image: linear-gradient(-45deg, #252d48 10%, #303e6a 50%, #27323d 100%);  
+    background: rgb(104, 137, 150);  
 }
   
 
 /* for classes that we specify include a '.' before class name */
   .box1 {
-    border: 2px solid blue; /* px is unit of measurement in pixels */
+    border: 2px solid white; /* px is unit of measurement in pixels */
     border-radius: 10px;
     padding: 0rem 2rem 1rem 2rem;
     margin-bottom: 2.5rem;
@@ -45,12 +45,15 @@ body{
   color: white;
   margin: 1rem 2rem;
   float: left;
+  font-size: 1.5vw;
 }
 
 .pId {
   color: white;
   margin: 1rem 2rem;
   float: right;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5vw;
 }
 
  h1 { 
@@ -59,12 +62,26 @@ body{
    padding: 2rem ;
    margin: auto;
    width: 50%;
-   font-size: 1.75vw;
+   font-family: "Times New Roman", Times, serif;
+   font-size: 2vw;
 }
 
 h2 {
   color: white;
-  font-size: 1.5vw;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4vw;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 2.5vw;
+}
+
+h4 {
+  color: rgb(104, 137, 150);
+  font-size: 2.5vw;
+  text-decoration: underline;
 }
 
 p1 { 
@@ -82,14 +99,16 @@ p2 {
 }
 
 .btn {
+  color: white;
   text-align: center;
-  font-size: 0.9vw;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.25vw;
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
   width: 100%;
-  background-color: rgb(255,255,255); /*you can change color by changing the HEX code*/
+  background-color: rgb(104, 137, 150); /*you can change color by changing the HEX code*/
 }
 
 .btn:hover {
@@ -99,6 +118,39 @@ p2 {
 }
 
 
-.imgmar{
-  margin: 1.5%;
+.imgmar1A {
+  float: left;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(104, 137, 150);
+}
+
+.my1A {
+  float: right;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(104, 137, 150);
+}
+
+figcaption1 {
+  background-color: rgb(104, 137, 150);
+  color:white;
+  padding: 2px;
+  text-align: center;
+  width: 300px;
+  float: left;
+}
+
+figcaption2 {
+  background-color: rgb(104, 137, 150);
+  color:white;
+  padding: 2px;
+  text-align: center;
+  width: 300px;
+  float: right;
+}
+
+.imgmar1B {
+  position: absolute;
+  left: 600px;
 }
