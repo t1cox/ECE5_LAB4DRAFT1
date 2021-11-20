@@ -173,3 +173,31 @@ figcaption2 {
   width: 300px;
   border: 2px solid rgb(104, 137, 150);
 }
+
+.top1C {
+  float: left;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(104, 137, 150);
+}
+
+.bot1C {
+  float: right;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(104, 137, 150);
+}
+
+.assembletop {
+  float: left;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(104, 137, 150);
+}
+
+.assembleside {
+  float: right;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(104, 137, 150);
+}
