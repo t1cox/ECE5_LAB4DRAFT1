@@ -160,6 +160,17 @@ figcaption2 {
   float: right;
 }
 
+figcaption3 {
+  background-color: rgb(104, 137, 150);
+  color:white;
+  padding: 2px;
+  text-align: center;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .imgmar1B {
   float: left;
   height: 300px;
@@ -188,14 +199,37 @@ figcaption2 {
   border: 2px solid rgb(104, 137, 150);
 }
 
-.assembletop {
+.assemble {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 500px;
+  border: 2px solid rgb(104, 137, 150);
+}
+
+.SWbase {
   float: left;
   height: 300px;
   width: 300px;
   border: 2px solid rgb(104, 137, 150);
 }
 
-.assembleside {
+.SWscoop {
+  float: left;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(104, 137, 150);
+}
+
+.Printbase {
+  float: right;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(104, 137, 150);
+}
+
+.Printscoop {
   float: right;
   height: 300px;
   width: 300px;
